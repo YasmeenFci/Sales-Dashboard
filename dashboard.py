@@ -95,7 +95,7 @@ with st.sidebar:
         df_raw = load_data(uploaded)
         st.success("Your file loaded!")
     else:
-        df_raw = load_data("data\sales_data.csv")
+        df_raw = load_data("data/sales_data.csv")
         st.info("Using demo data (800 orders)")
 
     st.markdown("---")
